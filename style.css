@@ -1,0 +1,28 @@
+.container {
+    background-color:black;
+}
+
+.container input {
+    width: 50vw;
+    padding: 10px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+}
+
+.cards {
+    justify-content: center;
+    display: grid;
+    grid-template-rows: 2fr 2fr 2fr;
+    grid-gap: 2em;
+    margin-top: 20px;
+}
+
+.cards div {
+    border-radius: 5px;
+    width: 50vw;
+    padding: 20px;
+    background-color:yellow;
+    color: black;
+    text-align: left;
+}
